@@ -1,3 +1,0 @@
-/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/CMakeFiles/rebuild_cache.dir
-/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/CMakeFiles/edit_cache.dir
-/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/CMakeFiles/conversion.dir

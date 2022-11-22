@@ -1,3 +1,0 @@
-repository='external project URL'
-module='https://developer.phaseone.com/sdk/releases/imagesdk/3/p1imagesdk-linux.tgz'
-tag=''
