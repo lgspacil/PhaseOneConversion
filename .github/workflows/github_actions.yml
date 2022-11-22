@@ -20,8 +20,7 @@ jobs:
     - name: cmake build
       run: cd build && cmake --build .
     - name: Upload Assets
-      uses: alexellis/upload-assets@0.3.0
-      env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: actions/upload-artifact@v2
       with:
-          asset_paths: '["main.cpp"]'
+          name: assets-for-download
+          path: build
