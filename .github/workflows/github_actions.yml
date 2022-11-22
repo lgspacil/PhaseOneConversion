@@ -15,9 +15,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Create build dir
       run: mkdir build
-    - name: cd to build dir
-      run: cd build
     - name: run cmake
-      run: cmake ..
+      run: cmake .. ./build
     - name: cmake build
-      run: cmake --build .
+      run: cd build && cmake --build .
