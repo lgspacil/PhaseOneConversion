@@ -19,12 +19,6 @@ jobs:
       run: cd build && cmake ..
     - name: cmake build
       run: cd build && cmake --build .
-    - name: Upload C++ binaries
-        uses: alexellis/upload-assets@0.3.0
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-            asset_paths: build/conversion
     - name: Upload Assets
       uses: actions/upload-artifact@v2
       with:
