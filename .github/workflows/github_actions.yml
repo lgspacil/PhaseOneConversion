@@ -19,17 +19,6 @@ jobs:
       run: cd build && cmake ..
     - name: cmake build
       run: cd build && cmake --build .
-    - name: Create Github release
-      id: create_release
-      uses: actions/create-release@v1
-      with:
-          tag_name: ${{ github.ref }}
-          release_name: ${{ github.ref }}
-          body: |
-              Changes in this release:
-              # ${{ env.GIT_HISTORY }}
-          draft: false
-          prerelease: false
     - name: Upload Assets
       uses: actions/upload-artifact@v2
       with:
