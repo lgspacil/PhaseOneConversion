@@ -43,7 +43,7 @@ int main(int argc, const char** argv)
          P1::ImageSdk::ConvertConfig config;
          config.SetOutputScale(1);
 
-         P1::ImageSdk::SetSensorProfilesLocation("/data/pipeline/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/SensorProfiles");
+         // P1::ImageSdk::SetSensorProfilesLocation("/data/pipeline/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/SensorProfiles");
          P1::ImageSdk::BitmapImage bitmap = iiq.Convert(config);
 
          // The resulting bitmap can now be stored to a tiff file.   
