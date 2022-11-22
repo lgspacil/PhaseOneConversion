@@ -17,6 +17,8 @@ int main(int argc, const char** argv)
       return -1;
    }
 
+   cout << "init";
+
    // first argument is the json file
    std::ifstream f(argv[1]);
    cout << "past stream";
