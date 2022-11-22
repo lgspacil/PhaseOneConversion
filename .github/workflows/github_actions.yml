@@ -20,5 +20,6 @@ jobs:
     - name: cmake build
       run: cd build && cmake --build .
     - name: Upload Assets
+      uses: alexellis/upload-assets@0.3.0
       with:
           asset_paths: '["build/conversion"]'
