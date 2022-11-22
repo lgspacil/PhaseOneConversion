@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/imagesdk-populate"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/imagesdk-populate.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/imagesdk-populate-complete.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-install.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-mkdir.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-download.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-update.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-patch.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-configure.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-build.rule"
+		},
+		{
+			"file" : "/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/imagesdk-populate-prefix/src/imagesdk-populate-stamp/imagesdk-populate-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imagesdk-populate"
+		],
+		"name" : "imagesdk-populate"
+	}
+}

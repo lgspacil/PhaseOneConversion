@@ -1,0 +1,3 @@
+/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/rebuild_cache.dir
+/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/edit_cache.dir
+/home/node/terramap-repo/packages/order-service/scripts/PhaseOne/conversion/build/_deps/imagesdk-subbuild/CMakeFiles/imagesdk-populate.dir

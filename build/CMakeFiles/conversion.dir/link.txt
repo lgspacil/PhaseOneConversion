@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/conversion.dir/main.cpp.o  -o conversion  ImageSDK/lib/libImageSdkCppStatic.a -lpthread 
