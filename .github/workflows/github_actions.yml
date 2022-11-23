@@ -23,5 +23,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
           name: assets-for-download
-          path: build/conversion
+          path: build/conversion |
                 build/SensorProfiles
