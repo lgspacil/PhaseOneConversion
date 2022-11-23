@@ -20,10 +20,10 @@ jobs:
         run: cd build && cmake ..
       - name: cmake build
         run: cd build && cmake --build .
-      - uses: "marvinpinto/action-automatic-releases@latest"
+      - name: Upload Assets
+        uses: actions/upload-artifact@v3
         with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          prerelease: false
-          files: |
-            build/SensorProfiles
-            build/conversion
+            name: files
+            path: |
+              build/SensorProfiles
+              build/conversion
