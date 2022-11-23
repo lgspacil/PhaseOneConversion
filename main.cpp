@@ -43,7 +43,7 @@ int main(int argc, const char** argv)
          P1::ImageSdk::ConvertConfig config;
          config.SetOutputScale(1);
 
-         P1::ImageSdk::SetSensorProfilesLocation("./build/SensorProfiles");
+         P1::ImageSdk::SetSensorProfilesLocation(getenv("P1SensorProfiles"));
          P1::ImageSdk::BitmapImage bitmap = iiq.Convert(config);
 
          // The resulting bitmap can now be stored to a tiff file.   
