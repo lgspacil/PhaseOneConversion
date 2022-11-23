@@ -20,9 +20,9 @@ jobs:
         run: cd build && cmake ..
       - name: cmake build
         run: cd build && cmake --build .
-  zip-files:
-    runs-on: ubuntu-latest
-    steps:
+  # zip-files:
+    # runs-on: ubuntu-latest
+    # steps:
       - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1
         with:
