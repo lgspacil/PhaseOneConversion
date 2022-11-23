@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: vimtor/action-zip@v1
         with:
-          files: build/SensorProfiles build/conversion
+          files: /build/SensorProfiles /build/conversion
           dest: result.zip
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
