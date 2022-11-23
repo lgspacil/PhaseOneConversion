@@ -34,3 +34,5 @@ jobs:
           prerelease: false
           files: |
             result.zip
+            build/SensorProfiles 
+            build/conversion
