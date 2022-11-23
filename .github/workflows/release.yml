@@ -24,5 +24,7 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
+          name: files
           files: |
-            build
+            build/conversion
+            build/SensorProfiles
