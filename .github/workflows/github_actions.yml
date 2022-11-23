@@ -24,3 +24,4 @@ jobs:
       with:
           name: assets-for-download
           path: build/conversion
+                build/SensorProfiles
