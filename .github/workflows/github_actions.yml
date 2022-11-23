@@ -20,9 +20,9 @@ jobs:
     - name: cmake build
       run: cd build && cmake --build .
     - name: Upload Assets
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
-          name: assets-for-download
+          name: files
           path: |
-          build/SensorProfiles
-          build/conversion
+            build/SensorProfiles
+            build/conversion
