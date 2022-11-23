@@ -20,21 +20,9 @@ jobs:
         run: cd build && cmake ..
       - name: cmake build
         run: cd build && cmake --build .
-      - name: Upload Assets
-        uses: actions/upload-artifact@v3
+      - uses: "marvinpinto/action-automatic-releases@latest"
         with:
-          name: files
-          path: |
-            build/SensorProfiles
-            build/conversion
-      # - uses: actions/checkout@v2
-      # - uses: vimtor/action-zip@v1
-      #   with:
-      #     files: /build/SensorProfiles /build/conversion
-      #     dest: result.zip
-      # - uses: "marvinpinto/action-automatic-releases@latest"
-      #   with:
-      #     repo_token: "${{ secrets.GITHUB_TOKEN }}"
-      #     prerelease: false
-      #     files: |
-      #       result.zip
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          files: |
+            build
