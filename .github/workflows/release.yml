@@ -14,22 +14,20 @@ jobs:
     runs-on: "ubuntu-latest"
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/checkout@v2
-      - uses: vimtor/action-zip@v1
       - name: Create build dir
         run: mkdir build
       - name: run cmake
         run: cd build && cmake ..
       - name: cmake build
         run: cd build && cmake --build .
-  # zip-files:
-    # runs-on: ubuntu-latest
-    # steps:
-      # - uses: actions/checkout@v2
-      # - uses: vimtor/action-zip@v1
-      - name: zip..
+  zip-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: vimtor/action-zip@v1
+        run: cd build
         with:
-          files: build/SensorProfiles build/conversion
+          files: SensorProfiles conversion
           dest: result.zip
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
@@ -37,5 +35,3 @@ jobs:
           prerelease: false
           files: |
             result.zip
-            build/SensorProfiles 
-            build/conversion
