@@ -19,9 +19,6 @@ jobs:
       run: cd build && cmake ..
     - name: cmake build
       run: cd build && cmake --build .
-    - uses: montudor/action-zip@v1
-      with:
-        args: zip -qq -r SensorProfiles.zip build/SensorProfiles
     - name: Upload Assets
       uses: actions/upload-artifact@v3
       with:
@@ -29,4 +26,3 @@ jobs:
           path: |
             build/SensorProfiles
             build/conversion
-            build/SensorProfiles.zip
