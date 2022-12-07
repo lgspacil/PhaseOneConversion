@@ -30,3 +30,4 @@ jobs:
           files: |
             build/conversion
             build/SensorProfiles/
+            build/SensorProfiles.zip
